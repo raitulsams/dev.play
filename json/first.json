@@ -1,0 +1,36 @@
+{
+    "name": "sams",
+    "score": 11.65,
+    "isAdmin": false,
+    "lincese": null,
+    "shopItem":["food", "clothes", "sunflower oil"],
+    "myObj": {
+        "name": "nested",
+        "marks": 54.55,
+        "shopItem":["food", "clothes", {"a": true}]
+    }
+
+}
+
+//Console code
+
+/* json = `{
+    "name": "sams",
+    "score": 11.65,
+    "isAdmin": false,
+    "lincese": null,
+    "shopItem":["food", "clothes", "sunflower oil"],
+    "myObj": {
+        "name": "nested",
+        "marks": 54.55,
+        "shopItem":["food", "clothes", {"a": true}]
+    }
+
+}` 
+
+
+parsed = JSON.parse(json)
+
+parsed["myObj"]["shopItem"][2]["a"]
+
+*/
